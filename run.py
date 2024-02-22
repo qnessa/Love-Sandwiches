@@ -132,8 +132,8 @@ def calculate_stock_data(data):
         average = sum(int_column) / len(int_column)
         stock_num = average * 1.1
         new_stock_data.append(round(stock_num))
-    print(new_stock_data)
-   
+    
+     return new_stock_data
 
 def main():
     """
